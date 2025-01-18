@@ -8,6 +8,7 @@
 
 手順はQiitaの方に詳しく書いています。
 
+https://qiita.com/kyoupattulan/items/ee889f8f6929a4e832c7
 
 
 ### 何をつくるの？
