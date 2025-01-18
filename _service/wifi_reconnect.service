@@ -1,0 +1,14 @@
+[Unit]
+Description=Wi-Fi Reconnect Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart= /home/***ユーザー名***/RaspGPT/wifi_reconnect.sh
+Restart=on-failure
+User=***ユーザー名***
+WorkingDirectory=/home/***ユーザー名***/RaspGPT
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,4 @@
+.git_token
+modules/__pycache__/
+modules/faster-whisper-medium/
+modules/faster-whisper-small/

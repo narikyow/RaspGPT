@@ -1,0 +1,13 @@
+[Unit]
+Description=Button Triggered Shutdown
+After=multi-user.target
+
+[Service]
+ExecStart=/home/***自分のユーザー名***/RaspGPT/button_shutdown.sh
+Environment="XDG_RUNTIME_DIR"=/run/user/***ユーザーid***
+Restart=always
+RestartSec=7
+User=***自分のユーザー名***
+
+[Install]
+WantedBy=multi-user.target

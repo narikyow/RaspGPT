@@ -1,0 +1,15 @@
+[Unit]
+Description=Raspgpt Auto Start Service
+After=network.target
+
+[Service]
+Type=simple
+User=***自分のユーザー名***
+WorkingDirectory=/home/***自分のユーザー名***/RaspGPT
+ExecStart=/home/***自分のユーザー名***/RaspGPT/start_raspgpt.sh
+Environment="XDG_RUNTIME_DIR"=/run/user/***自分のユーザーid***
+Restart=always
+RestartSec=7
+
+[Install]
+WantedBy=multi-user.target
