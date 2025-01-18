@@ -2,7 +2,7 @@
 
 大学の講義「ICT実践」において、Raspberry Piを活用して無課金スマートスピーカーを作成しました。
 
-## GPTと入っているのに、ChatGPTではなくGeminiと通信します
+## GPTと名前に入っているのに、ChatGPTではなくGeminiと通信します
 
 ## 概要
 
