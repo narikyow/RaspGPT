@@ -17,7 +17,7 @@ https://qiita.com/kyoupattulan/items/ee889f8f6929a4e832c7
 Geminiとfaster-whisperを利用し、無課金で運用できるスマートスピーカーを作ります。
 
 - ChatGPT APIのクレジット購入ができなかったため、Geminiの無料枠を使用。
-- ChatGPT APIを想定して設計していたため、一部の機能（DeepL翻訳など）が未完成。
+- ChatGPT APIと通信するコード（modules/GPT.py）は動作の確認が不十分のため注意。
 - スマートスピーカーとの会話はGoogleスプレッドシートに記録され、メールで送信されます。
 
 ![全体の処理フロー](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3984207/86f30ca3-dfa5-8ec3-484b-64b3d22a4535.png)
